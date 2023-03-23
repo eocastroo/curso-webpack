@@ -1,0 +1,43 @@
+assets by status 5.45 KiB [cached] 5 assets
+
+WARNING in configuration
+The 'mode' option has not been set, webpack will fallback to 'production' for this value.
+Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+
+ERROR in main
+Module not found: Error: Can't resolve 'json' in '/mnt/c/Users/Administrador/Documents/Programador Frontend/WEBPACK/js-portfolio'
+resolve 'json' in '/mnt/c/Users/Administrador/Documents/Programador Frontend/WEBPACK/js-portfolio'
+  Parsed request is a module
+  using description file: /mnt/c/Users/Administrador/Documents/Programador Frontend/WEBPACK/js-portfolio/package.json (relative path: .)
+    Field 'browser' doesn't contain a valid alias configuration
+    resolve as module
+      looking for modules in /mnt/c/Users/Administrador/Documents/Programador Frontend/WEBPACK/js-portfolio/node_modules
+        single file module
+          using description file: /mnt/c/Users/Administrador/Documents/Programador Frontend/WEBPACK/js-portfolio/package.json (relative path: ./node_modules/json)
+            no extension
+              Field 'browser' doesn't contain a valid alias configuration
+              /mnt/c/Users/Administrador/Documents/Programador Frontend/WEBPACK/js-portfolio/node_modules/json doesn't exist
+            .js
+              Field 'browser' doesn't contain a valid alias configuration
+              /mnt/c/Users/Administrador/Documents/Programador Frontend/WEBPACK/js-portfolio/node_modules/json.js doesn't exist
+        /mnt/c/Users/Administrador/Documents/Programador Frontend/WEBPACK/js-portfolio/node_modules/json doesn't exist
+      /mnt/c/Users/Administrador/Documents/Programador Frontend/WEBPACK/node_modules doesn't exist or is not a directory
+      /mnt/c/Users/Administrador/Documents/Programador Frontend/node_modules doesn't exist or is not a directory
+      /mnt/c/Users/Administrador/Documents/node_modules doesn't exist or is not a directory
+      looking for modules in /mnt/c/Users/Administrador/node_modules
+        single file module
+          using description file: /mnt/c/Users/Administrador/package.json (relative path: ./node_modules/json)
+            no extension
+              Field 'browser' doesn't contain a valid alias configuration
+              /mnt/c/Users/Administrador/node_modules/json doesn't exist
+            .js
+              Field 'browser' doesn't contain a valid alias configuration
+              /mnt/c/Users/Administrador/node_modules/json.js doesn't exist
+        /mnt/c/Users/Administrador/node_modules/json doesn't exist
+      /mnt/c/Users/node_modules doesn't exist or is not a directory
+      /mnt/c/node_modules doesn't exist or is not a directory
+      /mnt/node_modules doesn't exist or is not a directory
+      /node_modules doesn't exist or is not a directory
+
+webpack 5.74.0 compiled with 1 error and 1 warning in 6413 ms
